@@ -6,7 +6,7 @@ This folder houses the source code for all engr16x library functionality.
 
 This is a library handling all data communication/streaming framework for communication between a raspberry pi and a computer
 
-## downloadSpyder
+## installSpyder
 
 This is a script file used to download stock python and Spyder (without Anaconda) on a PC or a Mac.
 
