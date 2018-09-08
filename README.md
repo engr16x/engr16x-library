@@ -8,7 +8,7 @@ This repository contains the source code for engr16x python package, which house
 
 ## Installing the library
 
-To install the library, first make sure you have pip installed on your machine by enetering `pip -V` into the command line/terminal.  If a pip version number is not output, install pip by following the instructions found [here](https://pip.pypa.io/en/stable/installing/#do-i-need-to-install-pip).
+To install the library, first make sure you have pip installed on your machine by enetering `pip -V` into the command prompt/terminal window.  If a pip version number is not output, install pip by following the instructions found [here](https://pip.pypa.io/en/stable/installing/#do-i-need-to-install-pip).
 
 Download and install the engr16x library simply by entering the command below into your command prompt/terminal window.
 
