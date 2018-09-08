@@ -4,7 +4,7 @@ Find the version number and other information of the current local installation 
 
 `pip show engr16x`
 
-Version numbering is formatted `major.minor.revision.build` and is incrimented as dexribed below.
+Version numbering is formatted `major.minor.revision.build` and is incrimented as desribed below.
 
 |  |  |
 | --- | --- |
