@@ -13,6 +13,22 @@ Version numbering is formatted `major.minor.revision.build` and is incrimented a
 | revision | Incrimented when existing features or functions are changed to address errors or better performance |
 | build | Incrimented when the library is recompiled or other cosmetic changes are made. |
 
+
+
+---
+
+
+
+# Building the package
+
+To build the package, first assure you have the latest bersion of setuptools and wheel.  If unsure, enter `python3 -m pip install --user --upgrade setuptools wheel`.
+
+`python3 setup.py sdist bdist_wheel`
+
+More informatio on building packages can be found [here](https://packaging.python.org/tutorials/packaging-projects/).
+
+
+
 ---
 
 # Code Standard
