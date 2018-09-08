@@ -21,7 +21,7 @@ Version numbering is formatted `major.minor.revision.build` and is incrimented a
 
 # Building the package
 
-To build the package, first assure you have the latest bersion of setuptools and wheel.  If unsure, enter `python3 -m pip install --user --upgrade setuptools wheel`.
+To build the package, first assure you have the latest bersion of setuptools and wheel.  If unsure, enter `python3 -m pip install --user --upgrade setuptools wheel`. Then, from the same directory as setup.py, enter the command below to generate all the distribution files.
 
 `python3 setup.py sdist bdist_wheel`
 
