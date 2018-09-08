@@ -11,7 +11,7 @@ is okay.  However:
 
 `[[1, 2, 3, 4], [5, 6], [7, 8]]`
 
-is not okay.
+is not okay, as the each row does not contain the same number of elements.
 
 ---
 
