@@ -1,15 +1,15 @@
-# Source Code
+# Submodules
 
-This folder houses the source code for all engr16x library functionality.
+This folder shows the submodules for the engr16x library. Descriptions of the contents of each submodule are below.
 
 ## piTalk
 
-This is a library handling all data communication/streaming framework for communication between a raspberry pi and a computer
+Handles all data communication/streaming framework for communication between a raspberry pi and a computer.
 
-## installSpyder
+## install
 
-This is a script file used to download stock python and Spyder (without Anaconda) on a PC or a Mac.
+Installs software used for homework or in class.
 
 ## projects
 
-This contains files and functions for use with projects
+This contains files and functions for use with projects such as sensor filters.
