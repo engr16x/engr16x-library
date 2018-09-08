@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This repository contains the source code for engr16x library, which houses resources for students of Purdue University enrolled in ENGR16100 / ENGR16200 to use in their completion of projects, assignments, and other activities.
+This repository contains the source code for engr16x python package, which houses resources for students of Purdue University enrolled in ENGR16100 / ENGR16200 to use in their completion of projects, assignments, and other activities.
 
 ## Library Contents
 
