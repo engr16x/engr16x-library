@@ -6,7 +6,7 @@ Find the version number and other information of the current local installation 
 
 Version numbering is formatted `major.minor.revision.build` and is incrimented as dexribed below
 
-| Header | Header |
+|  |  |
 | --- | --- |
 | major | Incrimented when new submodules are added |
 | minor | Incrimented when new features or functions within submodules are added |
