@@ -1,15 +1,5 @@
 # Source Code
 
-This folder houses the source code for all engr16x library functionality.
+Find the version number and other information of the current local installation of engr16x by enetering
 
-## piTalk
-
-This is a library handling all data communication/streaming framework for communication between a raspberry pi and a computer
-
-## installSpyder
-
-This is a script file used to download stock python and Spyder (without Anaconda) on a PC or a Mac.
-
-## projects
-
-This contains files and functions for use with projects
+`pip show engr16x`
