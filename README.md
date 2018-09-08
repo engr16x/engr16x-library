@@ -10,13 +10,16 @@ This repository contains the source code for engr16x python package, which house
 
 The engr16x library is orgainized into submodules for ease of use. To import only specific submodules, simply include `import engr16x.name-of-submodule` at the top of any python script. More information on modules can be found [here](https://docs.python.org/3/tutorial/modules.html#packages).
 
-Name | Description
---- | ---
-`piTalk` | Allows a Computer to establish a socket connection with a Raspberry Pi and establishes a communication protocol using TCP to send/recieve data from the pi.  For more information see the README.md in this folder
-`piTalk.pi` | Submodule of piTalk that contains all the functions to be used by the Raspberry Pi.
-`piTalk.computer` | Submondule of piTalk that contains all the functions to be used by the Computer.
-`install` | Provides scripts to install python, spyder, and other sofware used in the ENGR16X curriculum.
-`projects` | Includes helper files and functions to be used with sensors and motors utilized in projects and in-class activities.
+| Name | Description |
+| --- | --- |
+| `piTalk` | Allows a Computer to establish a socket connection with a Raspberry Pi and establishes a communication protocol using TCP to send/recieve data from the pi.  For more information see the README.md in this folder |
+| `piTalk.pi` | Submodule of piTalk that contains all the functions to be used by the Raspberry Pi. |
+| `piTalk.computer` | Submondule of piTalk that contains all the functions to be used by the Computer. |
+|   |   |
+| `install` | Provides scripts to install python, spyder, and other sofware used in the ENGR16X curriculum. |
+| `install.spyder` | Installs python and spyder without installing Anaconda. |
+|   |   |
+| `projects` | Includes helper files and functions to be used with sensors and motors utilized in projects and in-class activities. |
 
 ## Repo Structure
 
