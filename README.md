@@ -6,6 +6,14 @@
 
 This repository contains the source code for engr16x python package, which houses resources for students of Purdue University enrolled in ENGR16100 / ENGR16200 to use in their completion of projects, assignments, and other activities.
 
+## Installing the library
+
+To install the library, first make sure you have pip installed on your machine by enetering `pip -V` into the command line/terminal.  If a pip version number is not output, install pip by following the instructions found [here](https://pip.pypa.io/en/stable/installing/#do-i-need-to-install-pip).
+
+Download and install the engr16x library simply by entering the command below into your command prompt/terminal window.
+
+`pip install git+https://github.com/engr16x/engr16x-library`
+
 ## Library Contents
 
 The engr16x library is orgainized into submodules for ease of use. To import only specific submodules, simply include `import engr16x.name-of-submodule` at the top of any python script. More information on modules can be found [here](https://docs.python.org/3/tutorial/modules.html#packages).
