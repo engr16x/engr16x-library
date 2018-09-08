@@ -23,7 +23,7 @@ The engr16x library is orgainized into submodules for ease of use. To import onl
 | `piTalk` | Allows a Computer to establish a socket connection with a Raspberry Pi and establishes a communication protocol using TCP to send/recieve data from the pi.  For more information see the README.md in this folder |
 | `piTalk.pi` | Submodule of piTalk that contains all the functions to be used by the Raspberry Pi. |
 | `piTalk.computer` | Submondule of piTalk that contains all the functions to be used by the Computer. |
-|   |   |
+| --- | --- |
 | `install` | Provides scripts to install python, spyder, and other sofware used in the ENGR16X curriculum. |
 | `install.spyder` | Installs python and spyder without installing Anaconda. |
 |   |   |
