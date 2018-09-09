@@ -1,0 +1,10 @@
+README.md
+setup.py
+engr16x.egg-info/PKG-INFO
+engr16x.egg-info/SOURCES.txt
+engr16x.egg-info/dependency_links.txt
+engr16x.egg-info/top_level.txt
+src/engr16x/piTalk/computer.py
+src/engr16x/piTalk/pi.py
+src/engr16x/__init__.py
+src/engr16x/piTalk/pi.py

@@ -1,6 +1,6 @@
 # Always prefer setuptools over distutils
 from setuptools import setup, find_packages
-from os import path
+from os import path, walk
 from io import open
 
 here = path.abspath(path.dirname(__file__))
@@ -11,6 +11,17 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 # Arguments marked as "Required" below must be included for upload to PyPI.
 # Fields marked as "Optional" may be commented out.
+
+def getPythonModules():
+    python_modules = []
+    for dirPath, directory, files in walk('./src'):
+        for file in files:
+            if (file.endswith('.py')) and not(file.startswith('__init__')):
+                filePath = path.join(dirPath, file).replace('\\', '/')
+                print(filePath)
+                python_modules.append(filePath[2:-3])
+    print(python_modules)
+    return python_modules
 
 setup(
     # This is the name of your project. The first time you publish this
@@ -32,7 +43,7 @@ setup(
     # For a discussion on single-sourcing the version across setup.py and the
     # project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='1.0.0',  # Required
+    version='0.1.0.0',  # Required
 
     # This is a one-line description or tagline of what your project does. This
     # corresponds to the "Summary" metadata field:
@@ -85,7 +96,7 @@ setup(
     #   py_modules=["my_module"],
     #
     #packages=find_packages(exclude=['contrib', 'docs', 'tests']),  # Required
-    py_modules=['src/engr16x'],
+    py_modules=getPythonModules(),
     
 #    # This field lists other packages that your project depends on to run.
 #    # Any package you put here will be installed by pip when your project is
