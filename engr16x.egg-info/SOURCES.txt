@@ -7,4 +7,5 @@ engr16x.egg-info/top_level.txt
 src/engr16x/piTalk/computer.py
 src/engr16x/piTalk/pi.py
 src/engr16x/__init__.py
+src/engr16x/piTalk/computer.py
 src/engr16x/piTalk/pi.py
